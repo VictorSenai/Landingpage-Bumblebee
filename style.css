@@ -1,0 +1,131 @@
+/* body */
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0%;
+    background-color: #ece5ce;
+    color: rgba(0, 0, 0, 0.938); 
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #d4a817e1;
+    height: 80px;
+}
+
+#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 400px;
+    background-color:  #f1da9a;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* center */
+#center{
+    display: flex;
+    align-items: left;
+    background-image: url("./img/fundo.png");
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* yeloow squarer */
+#intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:  #ece5ce;
+    color: rgb(0, 0, 0); 
+    width: 600px;
+    height: 700px;
+    padding: 20px;
+    margin-top: 80px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+
+/* profile picture */
+#perfil{
+    border-radius: 100%;
+    margin-bottom: 40px;
+    box-shadow: 4px 4px 8px  #d4a817e1;
+}
+
+
+/* center text div  */
+#texto{
+    width: 550px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:  #d4a817e1;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: medium;
+}
+
+span{
+  color: #1A488C;
+}
+
+/* catolog div*/
+#filmes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+}
+
+/* catalogo */
+#catalogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+/* cards */
+#card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 320px;
+    background-color: #d4a817e1;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#card:hover{
+    transform: scale(1.1); 
+    box-shadow: 2px 2px 5px black;
+}
+#cardlink{
+    cursor: pointer;
+}
+/* footer */
+footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
